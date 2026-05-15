@@ -1,0 +1,20 @@
+Evaluating Classification Models¶
+Estimated time needed: 25 minutes
+
+Objectives
+After completing this lab, you will be able to:
+
+Implement and evaluate the performance of classification models on real-world data
+Interpret and compare various evaluation metrics and the confusion matrix for each model
+
+    Introduction
+In this lab, you will:
+
+Use the breast cancer data set included in scikit-learn to predict whether a tumor is benign or malignant
+Create two classification models and evaluate them.
+Add some Gaussian random noise to the features to simulate measurement errors
+Interpreting and comparing the various evaluation metrics and the confusion matrix for each model will provide you with some valuable intuition regarding what the evaluation metrics mean and how they might impact your interpretation of the model performances.
+
+Your goal in this lab is not to find the best classifier - it is primarily intended for you to practice interpreting and comparing results in the context of a real-world problem.
+
+First, to make sure that the required libraries are available, execute the cell below.
